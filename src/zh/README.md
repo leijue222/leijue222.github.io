@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: /logo.svg
 heroText: Yuze's Blog
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 深度学习爱好者
 projects:
   - icon: project
     name: 项目名称

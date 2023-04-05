@@ -26,37 +26,16 @@ export default hopeTheme({
       Email: "dyw222@foxmail.com",
       GitHub: "https://github.com/leijue222/",
       Gmail: "leijue222@gmail.com",
-      Resume: "Gmail",
+      Article: "https://yiweiding.netlify.app/",
       MrHope: ["https://mrhope.site", MR_HOPE_AVATAR],
     },
   },
 
   locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A FrontEnd programmer",
-        intro: "/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -75,6 +54,26 @@ export default hopeTheme({
       // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
+      },
+    },
+    "/en/": {
+      // navbar
+      navbar: enNavbar,
+
+      // sidebar
+      sidebar: enSidebar,
+
+      footer: "Default footer",
+
+      displayFooter: true,
+
+      blog: {
+        description: "Computer Vision Engineer",
+        intro: "/intro.html",
+      },
+
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
       },
     },
   },

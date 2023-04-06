@@ -45,7 +45,10 @@ const MR_RESUME =
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer:
+        '主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a> | <a href="https://leijue222.github.io/about/site.html" target="_blank">关于网站</a>',
+      
+      copyright: "基于 MIT 协议，© 2023-至今 Yuze",
 
       displayFooter: true,
 
@@ -58,35 +61,15 @@ const MR_RESUME =
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
-    },
-    "/en/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "Computer Vision Engineer",
-        intro: "/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
+    }
   },
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": ["1234"],
+  //     "/zh/demo/encrypt.html": ["1234"],
+  //   },
+  // },
 
   plugins: {
     blog: true,

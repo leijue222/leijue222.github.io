@@ -1,3 +1,14 @@
+---
+icon: edit
+date: 2022-07-11
+category:
+  - 深度学习
+tag:
+  - DDP
+---
+
+# DDP Test
+
 1. DDP每张卡计算特征
 2. 把每张卡返回的结果进行gather，返回List列表
 3. 把gather的结果放在主卡用于指标评估

@@ -1,3 +1,15 @@
+---
+icon: edit
+date: 2022-05-18
+category:
+  - 常用工具
+tag:
+  - frp
+---
+
+
+# frp内网穿透
+
 ## 内网穿透（frp）教程，分为云服务器端（frps）和本地电脑端（frpc）
 
 > 留意**7000和7500**端口要开放**安全组和防火墙**。配置防火墙可参考[此处](https://blog.yiweiding.cn/archives/%E9%98%B2%E7%81%AB%E5%A2%99firewalldiptables%E7%9A%84%E4%BD%BF%E7%94%A8)

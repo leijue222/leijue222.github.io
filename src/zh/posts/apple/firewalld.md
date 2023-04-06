@@ -1,3 +1,15 @@
+---
+icon: edit
+date: 2022-05-18
+category:
+  - 常用工具
+tag:
+  - firewalld
+  - iptables
+---
+
+
+# 防火墙（firewalld、iptables）的使用
 
 ## 防火墙（firewalld、iptables）
 > 推荐使用iptables，并关闭系统默认的firewalld。

@@ -1,3 +1,15 @@
+---
+icon: edit
+date: 2022-05-18
+category:
+  - 常用工具
+tag:
+  - linux
+---
+
+
+# Liunx常用命令
+
 > 不断更新中...
 
 ## 复制（可看进度）

@@ -18,6 +18,7 @@ export const zhNavbar = navbar([
         children: [
           { text: "Dokcer镜像的制作", icon: ICON_DOCKER, link: "dockerMake" },
           { text: "Docker常用命令", icon: "shell", link: "dockerCMD" },
+          { text: "frp内网穿透", icon: "tool", link: "frp" },
         ],
       },
       { 

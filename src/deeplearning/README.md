@@ -7,4 +7,4 @@ sticky: 9
 
 ## DDP
 
-- [DDP TEST](deeplearning/ddpTest.md)
+- [DDP TEST](ddpTest.md)

@@ -23,7 +23,7 @@ export const zhNavbar = navbar([
       { 
         text: "Linux", 
         icon: "linux", 
-        prefix: "tools/",
+        prefix: "linux/",
         children: [
           { text: "Linux常用命令", icon: "shell", link: "linuxCMD" },
           { text: "防火墙", icon: "animation", link: "firewalld" },

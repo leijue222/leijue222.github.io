@@ -1,47 +1,32 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
-  { text: "演示", icon: "discover", link: "/zh/demo/" },
+  "/",
+  { text: "深度学习", icon: "discover", link: "/deeplearning/" },
   {
-    text: "博文",
+    text: "工程研发",
     icon: "edit",
-    prefix: "/zh/posts/",
+    prefix: "/develop/",
     children: [
       {
-        text: "苹果",
-        icon: "edit",
-        prefix: "apple/",
+        text: "常用工具",
+        icon: "tool",
+        prefix: "tools/",
         children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
+          { text: "Dokcer镜像的制作", icon: "docker", link: "dockerMake" },
+          { text: "Docker常用命令", icon: "template", link: "dockerCMD" },
         ],
       },
-      {
-        text: "香蕉",
-        icon: "edit",
-        prefix: "banana/",
+      { 
+        text: "Linux", 
+        icon: "linux", 
+        link: "linux",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "Linux常用命令", icon: "template", link: "linuxCMD" },
+          { text: "防火墙", icon: "docker", link: "firewalld" },
         ],
       },
-      { text: "樱桃", icon: "edit", link: "cherry" },
-      { text: "火龙果", icon: "edit", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      // { text: "火龙果", icon: "edit", link: "dragonfruit" },
     ],
   },
   {

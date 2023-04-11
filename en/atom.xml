@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://leijue222.github.io/en/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://leijue222.github.io/en/</id>
+  <title>Yuze&amp;apos;s Blog</title>
+  <subtitle>Yuze&amp;apos;s Blog powered by vuepress-theme-hope</subtitle>
+  <updated>2023-04-11T03:07:14.700Z</updated>
+  <generator>vuepress-plugin-feed2</generator>
+  <link rel="self" href="https://leijue222.github.io/en/atom.xml"/>
+  <link rel="alternate" href="https://leijue222.github.io/en/"/>
+</feed>

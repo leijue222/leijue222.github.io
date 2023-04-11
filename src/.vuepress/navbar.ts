@@ -40,12 +40,14 @@ export const zhNavbar = navbar([
     children: [
         {
             text: "前端开发",
-            children: ["/front-end/"],
-          },
-          {
+            icon: "code",
+            link: "/front-end/",
+            activeMatch: "^/front-end/$",
+        },
+        {
             text: "后端工具",
             children: ["/ops/"],
-          },
+        },
     ]
   },
 ]);

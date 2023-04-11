@@ -34,8 +34,18 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "教程",
+    icon: "study",
+    prefix: "/tutorial/",
+    children: [
+        {
+            text: "前端开发",
+            children: ["/front-end/"],
+          },
+          {
+            text: "后端工具",
+            children: ["/ops/"],
+          },
+    ]
   },
 ]);

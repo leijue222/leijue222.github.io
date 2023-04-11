@@ -36,7 +36,7 @@ export const zhNavbar = navbar([
   {
     text: "教程",
     icon: "study",
-    prefix: "/tutorial/",
+    prefix: "/tutorial",
     children: [
         {
             text: "前端开发",
@@ -45,7 +45,7 @@ export const zhNavbar = navbar([
             activeMatch: "^/front-end/$",
         },
         {
-            text: "后端工具",
+            text: "运维工具",
             children: ["/ops/"],
         },
     ]

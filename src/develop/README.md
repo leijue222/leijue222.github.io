@@ -7,11 +7,11 @@ sticky: 9
 
 ## Linux常用
 
-- [常用命令](linuxCMD.md)
-- [防火墙](firewalld.md)
+- [常用命令](linux/linuxCMD.md)
+- [防火墙](linux/firewalld.md)
 
 ## 常用工具
 
-- [Docker常用命令](dockerCMD.md)
-- [Docker镜像制作防火墙](dockerMake.md)
-- [内网穿透](frp.md)
+- [Docker常用命令](tools/dockerCMD.md)
+- [Docker镜像制作防火墙](tools/dockerMake.md)
+- [内网穿透](tools/frp.md)

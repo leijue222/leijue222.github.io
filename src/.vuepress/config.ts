@@ -8,13 +8,8 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "Yuze's Blog",
-      description: "丁煜赜的博客",
-    },
-    "/en/": {
-      lang: "en-US",
-      title: "Yuze's Blog",
       description: "Yuze's Blog powered by vuepress-theme-hope",
-    }
+    },
   },
 
   theme,
